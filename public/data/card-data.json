@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "title": "React 소개",
+    "content": "React는 UI 구축을 위한 라이브러리입니다."
+  },
+  {
+    "id": 2,
+    "title": "Next.js 소개",
+    "author": "뫄뫄코딩씨",
+    "content": "Next.js는 React 기반의 SSR 프레임워크입니다."
+  },
+  {
+    "id": 3,
+    "title": "Tailwind CSS",
+    "image": "https://media.istockphoto.com/id/1154370446/ko/%EC%82%AC%EC%A7%84/%ED%9D%B0%EC%83%89-%EB%B0%B0%EA%B2%BD%EC%97%90-%EA%B3%A0%EB%A6%BD-%EB%90%9C-%EB%B0%94%EC%9C%84-%EC%A0%9C%EC%8A%A4%EC%B2%98%EB%A5%BC-%EB%B3%B4%EC%97%AC%EC%A3%BC%EB%8A%94-%EB%85%B9%EC%83%89-%EC%84%A0%EA%B8%80%EB%9D%BC%EC%8A%A4%EC%97%90-%EC%9E%AC%EB%AF%B8-%EB%84%88%EA%B5%AC%EB%A6%AC.jpg?s=612x612&w=0&k=20&c=atEjJlw_9g7W6SBgISn3sebRa94-zw5GGgyeddCf-AU=",
+    "content": "유틸리티 기반의 CSS 프레임워크입니다."
+  },
+  {
+    "id": 4,
+    "title": "고양이는 귀엽징",
+    "image": "https://media.istockphoto.com/id/1061806280/ko/%EC%82%AC%EC%A7%84/%EB%A7%88%EB%B2%95%EC%9D%98-%EC%A7%80%ED%8C%A1%EC%9D%B4%EB%A1%9C-%EA%B3%A0%EC%96%91%EC%9D%B4-%EC%9C%A0%EB%8B%88%EC%BD%98.jpg?s=612x612&w=0&k=20&c=sTwWwxbAeEw6sUWRSBnJA2Aw8K9mC2FW5wrN0EDa0qE=",
+    "content": "고양이들은 너무 귀여웡"
+  },
+  {
+    "id": 5,
+    "title": "Next.js 소개",
+    "author": "강아지도 귀엽징",
+    "content": "Next.js는 React 기반의 SSR 프레임워크입니다. Next.js는 React 기반의 SSR 프레임워크입니다. Next.js는 React 기반의 SSR 프레임워크입니다."
+  },
+  {
+    "id": 6,
+    "title": "리액트 과연 할 수 있을까!!",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWsOXyNmL2XoGXcPy5m8m09K7i2Hm2w_wk9A&s",
+    "content": "뭐 어찌되긋지..."
+  },
+  {
+    "id": 7,
+    "title": "후루루루룰!!!",
+    "author": "뫄뫄코딩씨",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWsOXyNmL2XoGXcPy5m8m09K7i2Hm2w_wk9A&s",
+    "content": "뭐 어찌되긋지..."
+  },
+  {
+    "id": 8,
+    "title": "꺄우우울!!!",
+    "author": "뫄뫄코딩씨",
+    "image": "https://media.istockphoto.com/id/1061806280/ko/%EC%82%AC%EC%A7%84/%EB%A7%88%EB%B2%95%EC%9D%98-%EC%A7%80%ED%8C%A1%EC%9D%B4%EB%A1%9C-%EA%B3%A0%EC%96%91%EC%9D%B4-%EC%9C%A0%EB%8B%88%EC%BD%98.jpg?s=612x612&w=0&k=20&c=sTwWwxbAeEw6sUWRSBnJA2Aw8K9mC2FW5wrN0EDa0qE=",
+    "content": "뭐 어찌되긋지..."
+  }
+]

@@ -32,8 +32,7 @@ export const metadata: Metadata = {
 // 모든 페이지는 이 레이아웃을 기반으로 렌더링됨.
 export default function RootLayout({ children }: { children: ReactNode }) {
     return (
-        <html lang="ko"> {/* HTML 문서의 언어를 한국어로 지정 */}
-            {/* Inter 폰트 클래스를 body 태그에 적용 */}
+        <html lang="ko">
             <body className={inter.className}>
                 {/* 공통 상단 Header 컴포넌트 출력 */}
                 <Header />
