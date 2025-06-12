@@ -1,6 +1,6 @@
-import { fetcher } from '@/lib/fetcher'
+import { get } from '@/lib/api-client'
 import { CardData } from '@/app/features/card/types'
 
 export const fetchCardData = async (): Promise<CardData[]> => {
-    return await fetcher<CardData[]>('/data/card-data.json')
+    return await get<CardData[]>('/data/card-data.json')
 }

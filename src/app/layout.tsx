@@ -1,10 +1,11 @@
 // 글로벌 CSS와 React Toastify 스타일을 불러옴.
 import './globals.css'
 import 'react-toastify/dist/ReactToastify.css'
+import Loading from '@/components/common/Loading'
 
 // Header 컴포넌트를 불러옴.
 import Header from '@/components/layout/Header'
-import Providers from '@/app/providers'
+import AppProviders from '@/providers/AppProviders'
 
 // Next.js에서 사용하는 메타데이터 타입과 ReactNode 타입을 불러옴.
 import type { Metadata } from 'next'
@@ -12,9 +13,6 @@ import type { ReactNode } from 'react'
 
 // Google Fonts에서 Inter 폰트를 불러옴.
 import { Inter } from 'next/font/google'
-
-// Toast 메시지를 위한 React Toastify 컴포넌트를 불러옴.
-import { ToastContainer } from 'react-toastify'
 
 // Inter 폰트를 설정. (subsets는 필요한 문자 집합 설정)
 const inter = Inter({ subsets: ['latin'] })
@@ -39,12 +37,11 @@ export default function RootLayout({ children }: { children: ReactNode }) {
                 <Header />
 
                 {/* 자식 페이지 컴포넌트 출력 */}
-                <Providers>
+                <AppProviders>
                     {children}
-                </Providers>
+                </AppProviders>
 
-                {/* 오른쪽 상단에 자동으로 닫히는 Toast 메시지 표시 설정 */}
-                <ToastContainer position="top-right" autoClose={3000} />
+                <Loading />
             </body>
         </html>
     )
