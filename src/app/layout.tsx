@@ -4,6 +4,7 @@ import 'react-toastify/dist/ReactToastify.css'
 
 // Header 컴포넌트를 불러옴.
 import Header from '@/components/layout/Header'
+import Providers from '@/app/providers'
 
 // Next.js에서 사용하는 메타데이터 타입과 ReactNode 타입을 불러옴.
 import type { Metadata } from 'next'
@@ -38,7 +39,9 @@ export default function RootLayout({ children }: { children: ReactNode }) {
                 <Header />
 
                 {/* 자식 페이지 컴포넌트 출력 */}
-                {children}
+                <Providers>
+                    {children}
+                </Providers>
 
                 {/* 오른쪽 상단에 자동으로 닫히는 Toast 메시지 표시 설정 */}
                 <ToastContainer position="top-right" autoClose={3000} />
