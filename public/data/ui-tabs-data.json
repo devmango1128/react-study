@@ -5,5 +5,6 @@
   { "name": "Rolling", "path": "features/rolling", "description": "롤링 기능" },
   { "name": "Form", "path": "features/form", "description": "form 제어" },
   { "name": "Drag", "path": "features/drag", "description": "드래그 & 드롭 정렬" },
-  { "name": "Modal", "path": "features/modal", "description": "모달창" }
+  { "name": "Modal", "path": "features/modal", "description": "모달창" },
+  { "name": "Table", "path": "features/table", "description": "테이블" }
 ]
