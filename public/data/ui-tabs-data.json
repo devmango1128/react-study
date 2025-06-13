@@ -1,0 +1,9 @@
+[
+  { "name": "Card", "path": "features/card", "description": "카드 UI 구성" },
+  { "name": "Accordion", "path": "features/accordion ", "description": "메뉴 아코디언" },
+  { "name": "Tab", "path": "features/tab", "description": "Tab" },
+  { "name": "Rolling", "path": "features/rolling", "description": "롤링 기능" },
+  { "name": "Form", "path": "features/form", "description": "form 제어" },
+  { "name": "Drag", "path": "features/drag", "description": "드래그 & 드롭 정렬" },
+  { "name": "Modal", "path": "features/modal", "description": "모달창" }
+]

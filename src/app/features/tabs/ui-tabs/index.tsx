@@ -1,21 +1,14 @@
 'use client'
 
+import { useUiTabsData } from '@/hooks/ui-tabs/useUiTabsData'
 import Link from 'next/link'
 
 export default function UITabPanel() {
-    const items = [
-        { name: 'Card', path: 'features/card', description: '카드 UI 구성' },
-        { name: 'Accordion', path: 'features/accordion ', description: '메뉴 아코디언' },
-        { name: 'Tab', path: 'features/tab', description: 'Tab' },
-        { name: 'Rolling', path: 'features/rolling', description: '롤링 기능' },
-        { name: 'Form', path: 'features/form', description: 'form 제어' },
-        { name: 'Drag', path: 'features/drag', description: '드래그 & 드롭 정렬' },
-        { name: 'Modal', path: 'features/modal', description: '모달창' },
-    ]
+    const { data } = useUiTabsData()
 
     return (
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
-            {items.map((item) => (
+            {data?.map((item) => (
                 <Link key={item.path} href={item.path}>
                     <div
                         className="rounded-xl border border-gray-200 bg-white p-6 shadow-sm hover:shadow-md transition-shadow duration-200 hover:bg-gray-50">
