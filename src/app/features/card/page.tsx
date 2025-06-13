@@ -10,6 +10,7 @@ export default function CardPage() {
     return (
         <div className="max-w-6xl mx-auto py-10 px-4">
             <CardGroup gap="gap-6">
+                {/*data가 존재할 경우에만 .map() 실행 (Optional Chaining 사용)*/}
                 {data?.map((item) => (
                     <Card key={item.id} data={item} />
                 ))}
