@@ -1,6 +1,6 @@
 import { fetchCardData } from '@/api/card/card-list'
 import { useQuery } from '@tanstack/react-query'
-import { CardData } from '@/app/features/card/types'
+import { CardData } from '@/app/features/(ui-tabs)/card/types'
 
 export const useCardData = () => {
     //CardData[] 타입의 데이터를 가져오는 React Query 훅 사용
