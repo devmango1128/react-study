@@ -1,0 +1,28 @@
+[
+  {
+    "title": "대시보드",
+    "children": [
+      {
+        "title": "통계",
+        "children": [
+          { "title": "접속자 통계" },
+          { "title": "메뉴 접근 통계" }
+        ]
+      },
+      {
+        "title": "설정",
+        "children": [
+          { "title": "권한 관리" },
+          { "title": "알림 설정" }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "문서",
+    "children": [
+      { "title": "API 인터페이스 정의서" },
+      { "title": "디자인 프로토타입 목록" }
+    ]
+  }
+]

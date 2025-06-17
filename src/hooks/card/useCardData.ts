@@ -1,4 +1,4 @@
-import { fetchCardData } from '@/api/card/card-list'
+import { fetchCardData } from '@/api/card/getCardList'
 import { useQuery } from '@tanstack/react-query'
 import { CardData } from '@/app/features/(ui-tabs)/card/types'
 
